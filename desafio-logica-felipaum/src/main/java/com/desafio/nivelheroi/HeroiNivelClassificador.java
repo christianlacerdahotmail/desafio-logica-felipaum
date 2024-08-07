@@ -1,5 +1,6 @@
-package main.java.com.desafio.classificadornivelheroi;
+package main.java.com.desafio.nivelheroi;
 
+//Classe contendo a lógica para classificar o herói com base na quantidade de experiência.
 public class HeroiNivelClassificador {
 
     public static String classificarNivel(int xp) {
@@ -22,4 +23,3 @@ public class HeroiNivelClassificador {
         }
     }
 }
-

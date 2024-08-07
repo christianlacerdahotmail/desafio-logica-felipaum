@@ -1,5 +1,6 @@
-package main.java.com.desafio.classificadornivelheroi;
+package main.java.com.desafio.nivelheroi;
 
+//Calsse que representa o herói e guarda nome e quantidade de experiência.
 public class Heroi {
     private String nome;
     private int xp;
@@ -9,7 +10,7 @@ public class Heroi {
         this.xp = xp;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
@@ -25,5 +26,3 @@ public class Heroi {
         this.xp = xp;
     }
 }
-
-

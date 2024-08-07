@@ -1,7 +1,8 @@
-package main.java.com.desafio.classificadornivelheroi;
+package main.java.com.desafio.nivelheroi;
 
 import java.util.Scanner;
 
+//Classe principal, onde instancia o herói, calcula nível e exibe a mensagem.
 public class Main {
 
     public static void main(String[] args) {
@@ -18,5 +19,4 @@ public class Main {
 
         System.out.printf("O Herói de nome %s está no nível de %s.%n", heroi.getNome(), nivel);
     }
-
 }
